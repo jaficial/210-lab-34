@@ -2,7 +2,9 @@
 // github link: https://github.com/jaficial/210-lab-34.git
 
 #include <iostream>
+#include <queue>
 #include <vector>
+#include <stack>
 using namespace std;
 
 const int SIZE = 7;
@@ -60,6 +62,12 @@ int main() {
 
     // Prints adjacency list representation of graph
     graph.printGraph();
+
+    queue<int> bfs_q;
+    bfs_q.push(edges[0]);
+    while (!bfs_q.empty()){
+
+    }
 
     return 0;
 }
